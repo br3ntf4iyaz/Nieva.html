@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Updated font */
+    line-height: 1.6;
+    background-color: #f9f9f9; /* Light background for overall page */
+    color: #333; /* Neutral text color */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #005f73; /* Deep teal background */
+    color: #fff;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 1rem;
+}
+
+.navbar .nav-links a {
+    color: #fdfcdc; /* Light yellow links */
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.navbar .nav-links a:hover {
+    color: #94d2bd; /* Soft mint green on hover */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #ee9b00; /* Vibrant orange background */
+    color: #fff; /* White text */
+    font-family: 'Roboto', sans-serif; /* Updated font */
+}
+
+/* Section Styles */
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    margin: 0.5rem 0;
+    font-family: 'Poppins', sans-serif; /* Consistent font */
+    font-size: 1rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #005f73; /* Deep teal footer */
+    color: #fdfcdc; /* Light yellow text */
+    font-family: 'Roboto', sans-serif; /* Updated font */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-links li {
+        margin-bottom: 0.5rem;
+    }
+}
